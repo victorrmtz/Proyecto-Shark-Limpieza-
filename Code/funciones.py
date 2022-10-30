@@ -324,3 +324,20 @@ def limpiar_nom(x):
     else:
         x = x.title()
         return x
+
+def limpiar_bc(x):
+    
+    if re.findall('(?i)B\.(?i)C', x):
+        return x[:11]
+    else:
+        return x
+    
+def limpiar_case(x):
+    y = re.findall('\d+.\d+.\d+', x)
+    
+    if y == []: 
+        return x
+    else:
+        y = y[0].split('.')
+        j = '-'.join(y)
+        return j
