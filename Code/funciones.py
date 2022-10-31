@@ -336,7 +336,9 @@ def limpiar_case(x):
     y = re.findall('\d+.\d+.\d+', x)
     
     if y == []: 
-        return x
+        return '0000-00-00'
+    elif len(y[0]) == 9:
+        return '0000-00-00'
     else:
         y = y[0].split('.')
         j = '-'.join(y)
@@ -347,6 +349,7 @@ def limpiar_tim(x):
     
     if y != []:
         y = y[0]
+        
     x = x.lower()
     if len(y) == 5:
         return y
@@ -370,3 +373,47 @@ def limpiar_tim(x):
         return '14h00'
     else:
         return 'Unknown'
+    
+def limpiar_age(x):
+    y = re.findall('\d+', x)
+    x = x.lower()
+    cont = 0
+    num = 0
+    if 'months' in x:
+        num = int(y[0])
+        num = int(num/12)
+        num = str(num)
+        return num
+    elif len(y) > 1:
+        for z in y:
+            num = 0
+            cont += 1
+            z = int(z)
+            num += z
+            num = int(num/cont)
+            num = str(num)
+        return num
+    elif 'teen' in x:
+        return '18'
+    elif 'young' in x:
+        return '14'
+    elif 'adult' in x:
+        return '40'
+    elif 'middle' in x:
+        return '50'
+    elif "elderly" in x:
+        return '65'
+    elif 'unknown' in x:
+        return 'Unknown'
+    elif y != []:
+        return y[0]
+    else:
+        return 'Unknown'
+    
+def limpiar_cou(x):
+    
+    x.Country = x.Country.str.upper()
+
+    x.Country = x.Country.str.replace("?","")
+    
+    
