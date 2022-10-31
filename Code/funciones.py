@@ -341,3 +341,32 @@ def limpiar_case(x):
         y = y[0].split('.')
         j = '-'.join(y)
         return j
+    
+def limpiar_tim(x):
+    y = re.findall('\d+h\d+', x)
+    
+    if y != []:
+        y = y[0]
+    x = x.lower()
+    if len(y) == 5:
+        return y
+    elif 'morning' in x or 'daytime' in x or 'sunset' in x:
+        return '09h30'
+    elif 'afterno' in x or 'noon' in x:
+        return '16h30'
+    elif 'evening' in x:
+        return '18h30'
+    elif 'midnight' in x:
+        return '03h00'
+    elif 'night' in x or 'dark' in x:
+        return '22h00'
+    elif 'dusk' in x or 'sundown' in x:
+        return '19h00'
+    elif 'daybreak' in x or 'dawn' in x:
+        return '07h45'
+    elif 'midday' in x:
+        return '12h00'
+    elif 'lunch' in x:
+        return '14h00'
+    else:
+        return 'Unknown'
