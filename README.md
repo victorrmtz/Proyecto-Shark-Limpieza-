@@ -46,24 +46,24 @@ Mi objetivo seria hacer una exploración total de la base de datos:
 
     1) Ataques por año:
 
-        ![Ataques por año](https://github.com/victorrmtz/Proyecto-Shark-Limpieza-/blob/main/Img/AtaquesAno.jpg?raw=true)
+![Ataques por año](https://github.com/victorrmtz/Proyecto-Shark-Limpieza-/blob/main/Img/AtaquesAno.jpg?raw=true)
 
         El número de ataques por año es bastante regular durante todo el siglo 21.
 
     2) Ataques por sexo:
 
-        ![Ataques por año](https://github.com/victorrmtz/Proyecto-Shark-Limpieza-/blob/main/Img/AtaquesSex.jpg?raw=true)
+![Ataques por año](https://github.com/victorrmtz/Proyecto-Shark-Limpieza-/blob/main/Img/AtaquesSex.jpg?raw=true)
 
         Podemos observas que los tiburones prefieren más a los hombres.
 
     3) Ataques por paises:
 
-        ![Ataques por paises](https://github.com/victorrmtz/Proyecto-Shark-Limpieza-/blob/main/Img/AtaquesPaises.jpg?raw=true)
+![Ataques por paises](https://github.com/victorrmtz/Proyecto-Shark-Limpieza-/blob/main/Img/AtaquesPaises.jpg?raw=true)
 
         Con mucha diferencia los paises más atacados por tiburones son USA y Australia.
 
     4) Ataques por actividad:
 
-        ![Ataques por actividad](https://github.com/victorrmtz/Proyecto-Shark-Limpieza-/blob/main/Img/AtaquesActividad.jpg?raw=true)
+![Ataques por actividad](https://github.com/victorrmtz/Proyecto-Shark-Limpieza-/blob/main/Img/AtaquesActividad.jpg?raw=true)
 
         Los deportes o actividades más peligrosas observamos que son nadar, surf y pescar.
