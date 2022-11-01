@@ -46,17 +46,24 @@ Mi objetivo seria hacer una exploración total de la base de datos:
 
     1) Ataques por año:
 
-        ![Ataques por año]()
+        ![Ataques por año](https://raw.githubusercontent.com/victorrmtz/Proyecto-Shark-Limpieza-/main/Img/AtaquesAno.jpg)
+
+        El número de ataques por año es bastante regular durante todo el siglo 21.
 
     2) Ataques por sexo:
 
-        ![Ataques por año]()
+        ![Ataques por año](https://raw.githubusercontent.com/victorrmtz/Proyecto-Shark-Limpieza-/main/Img/AtaquesSex.jpg)
+
+        Podemos observas que los tiburones prefieren más a los hombres.
 
     3) Ataques por paises:
 
-        ![Ataques por paises]()
+        ![Ataques por paises](https://raw.githubusercontent.com/victorrmtz/Proyecto-Shark-Limpieza-/main/Img/AtaquesPaises.jpg)
+
+        Con mucha diferencia los paises más atacados por tiburones son USA y Australia.
 
     4) Ataques por actividad:
 
-        ![Ataques por actividad]()
-        
+        ![Ataques por actividad](https://raw.githubusercontent.com/victorrmtz/Proyecto-Shark-Limpieza-/main/Img/AtaquesActividad.jpg)
+
+        Los deportes o actividades más peligrosas observamos que son nadar, surf y pescar.
